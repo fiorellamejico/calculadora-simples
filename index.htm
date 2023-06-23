@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações matemáticas - FIAP</title>
+    <link rel="stylesheet" href="css/calculos.css">
+    <script src="script/calculos.js" defer></script>
+  
+</head>
+<body>
+    <div id="fundo">
+        <h1>Operações matemáticas - FIAP</h1>
+        <h1>Marilia Fiorella Bueno</h1>
+        <div class="calculos">
+            <div class="numeros">
+                <form action="">
+                    <div>
+                        <label for="">Digite o primeiro número:</label>
+                        <input required type="number" name="num1" id="num1" required>
+                    </div>
+
+                    <div>
+                        <label for="">Digite o segundo número:</label>
+                        <input required type="number" name="num2" id="num2" required>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="operacoes">
+                <ul>
+                    <li><button class="botao" onclick="somar()">+</button></li>
+                    <li><button class="botao"onclick="subtrair()">-</button></li>
+                    <li><button class="botao"onclick="dividir()">/</button></li>
+                    <li><button class="botao"onclick="multiplicar()">x</button></li>
+                    <li><button class="botao"onclick="clean()">CE</button></li>
+
+                </ul>
+
+
+            </div>
+            <p>Resultado:</p><p class="resultado"><span></span> </p>
+
+        </div>
+    </div>
+
+  
+    
+
+</body>
+</html>

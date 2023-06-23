@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+#fundo{  
+    background-image: linear-gradient(45deg, black, purple);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculos{
+    width: 280px;
+    position: absolute;
+    background-color:rgba(0,0,0,0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#num1, #num2{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 5px;
+    
+}
+
+
+.operacoes{
+ 
+ position: flex;
+ text-align: center;  
+}
+
+ul{
+    list-style: none;
+    display: flex;
+   
+
+}
+.botao{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: white;
+    
+
+}
+
+
+
+.botao:hover{
+    background-color: black;
+}
+
+.resultado{
+    width: 100%;
+    background-color: white;
+    height: 28px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
